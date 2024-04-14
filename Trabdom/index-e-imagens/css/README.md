@@ -4,4 +4,6 @@
 
 <p>
 
+<h1>A diferença entre tag, id e class é</h1>
+
 <p>Em CSS, "class" e "id" são seletor de atributos que permitem estilizar elementos HTML de forma específica. "Class" pode ser aplicada a vários elementos, enquanto "id" deve ser único em cada página. As "tags" são os próprios elementos HTML, como div, p, h1, etc., que podem ser estilizados diretamente ou através de classes e IDs. Então, enquanto as classes e IDs são identificadores para aplicar estilos a elementos específicos, as tags são os próprios elementos HTML que podem ser alvo desses estilos. <p>
