@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: beige;
+}
+
+.container{
+    max-width: 1080px;  
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+nav{
+    background-color: rgb(194, 169, 169);
+    width: 100%;
+    padding: 10px;
+
+}
+
+.logo, .social{
+    width: 20%;
+}
+.logo img{
+    width: 50px;
+}
+
+
+.menu{
+    width: 70%;
+
+}
+.menu nav a{
+    color:#000000;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 17px;
+    position: relative;
+}
+.menu nav a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image:linear-gradient(45deg,#62162f, #483636);
+    position: absolute;
+    top: 20px;
+    left: 0 ;
+    transition: width 0.5s;
+}
+
+.menu nav a:hover::after{
+    width: 30px;
+
+}
+
+.social button{
+  
+    width: 30px;
+    height: 30px;
+    background-image: linear-gradient(45deg,#62162f, #483636);
+    border:none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+   
+}
+.social button i{
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.topo{
+
+width: 100%;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #62162f;
+
+}
+
+
+.topo{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+    width: 100%;
+    color: #fff;
+    
+}

@@ -1,0 +1,9 @@
+<h1>O que é html Semantico<h1>
+
+<p>HTML semântico é uma abordagem na construção de páginas web onde são utilizados elementos HTML que possuem significado semântico específico, como header, nav, article, entre outros, para estruturar o conteúdo de forma mais clara e compreensível. Suas vantagens incluem melhor acessibilidade para usuários com deficiências, melhoria na indexação por mecanismos de busca, facilitação na manutenção do código e compreensão do conteúdo tanto por humanos quanto por máquinas. A usabilidade é melhorada, uma vez que a estrutura semântica permite uma navegação mais intuitiva e uma experiência de usuário mais coesa. Os principais benefícios incluem melhor SEO, acessibilidade, manutenção e legibilidade do código, além de uma experiência de usuário mais agradável e eficiente.
+
+<p>
+
+<h1>A diferença entre tag, id e class é</h1>
+
+<p>Em CSS, "class" e "id" são seletor de atributos que permitem estilizar elementos HTML de forma específica. "Class" pode ser aplicada a vários elementos, enquanto "id" deve ser único em cada página. As "tags" são os próprios elementos HTML, como div, p, h1, etc., que podem ser estilizados diretamente ou através de classes e IDs. Então, enquanto as classes e IDs são identificadores para aplicar estilos a elementos específicos, as tags são os próprios elementos HTML que podem ser alvo desses estilos. <p>
